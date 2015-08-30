@@ -23,19 +23,14 @@
     return self;
 }
 
--(void)viewWillAppear
-{
-    //  objc_msgSend([UIDevice currentDevice], @selector(setOrientation:), UIInterfaceOrientationLandscapeLeft);
-  }
 
 - (NSUInteger)supportedInterfaceOrientations {
     UIDeviceOrientation  deviceOrientation;
-    if (IDIOM==IPAD){// [[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
-        // iPad: Allow all orientations
+    if (IDIOM==IPAD){
         return UIInterfaceOrientationMaskAll;
-         //deviceOrientation= (UIDeviceOrientation)UIInterfaceOrientationPortrait;
+        
     } else {
-        // iPhone: Allow only landscape
+        
         deviceOrientation= (UIDeviceOrientation)UIInterfaceOrientationMaskLandscape;
     }
     return deviceOrientation;
