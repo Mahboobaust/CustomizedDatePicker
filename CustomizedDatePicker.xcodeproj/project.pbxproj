@@ -19,6 +19,34 @@
 		2C11974B1B92EA7500ECD2F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C1197331B92EA7500ECD2F7 /* UIKit.framework */; };
 		2C1197531B92EA7500ECD2F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C1197511B92EA7500ECD2F7 /* InfoPlist.strings */; };
 		2C1197551B92EA7500ECD2F7 /* CustomizedDatePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1197541B92EA7500ECD2F7 /* CustomizedDatePickerTests.m */; };
+		2C1197611B92EACD00ECD2F7 /* DatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1197601B92EACD00ECD2F7 /* DatePicker.m */; };
+		2C1197681B92EC8D00ECD2F7 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1197671B92EC8D00ECD2F7 /* Utilities.m */; };
+		2C1197721B92EDC900ECD2F7 /* CustomRangeDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C11976D1B92EDC900ECD2F7 /* CustomRangeDatePicker.m */; };
+		2C1197731B92EDC900ECD2F7 /* CustomRangeDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C11976E1B92EDC900ECD2F7 /* CustomRangeDatePicker.xib */; };
+		2C1197741B92EDC900ECD2F7 /* CustomSingleDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1197701B92EDC900ECD2F7 /* CustomSingleDatePicker.m */; };
+		2C1197751B92EDC900ECD2F7 /* CustomSingleDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C1197711B92EDC900ECD2F7 /* CustomSingleDatePicker.xib */; };
+		2C11977A1B92EE9F00ECD2F7 /* CustomizedDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1197781B92EE9F00ECD2F7 /* CustomizedDatePickerViewController.m */; };
+		2C11977B1B92EE9F00ECD2F7 /* CustomizedDatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C1197791B92EE9F00ECD2F7 /* CustomizedDatePickerViewController.xib */; };
+		2C11977D1B93191400ECD2F7 /* CustomizedDatePickerViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C11977C1B93191400ECD2F7 /* CustomizedDatePickerViewController_iPhone.xib */; };
+		2C1197921B93251600ECD2F7 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C11977F1B93251600ECD2F7 /* Icon-40.png */; };
+		2C1197931B93251600ECD2F7 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1197801B93251600ECD2F7 /* Icon-40@2x.png */; };
+		2C1197941B93251600ECD2F7 /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1197811B93251600ECD2F7 /* Icon-40@3x.png */; };
+		2C1197951B93251600ECD2F7 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1197821B93251600ECD2F7 /* Icon-60.png */; };
+		2C1197961B93251600ECD2F7 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1197831B93251600ECD2F7 /* Icon-60@2x.png */; };
+		2C1197971B93251600ECD2F7 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1197841B93251600ECD2F7 /* Icon-60@3x.png */; };
+		2C1197981B93251600ECD2F7 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1197851B93251600ECD2F7 /* Icon-72.png */; };
+		2C1197991B93251600ECD2F7 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1197861B93251600ECD2F7 /* Icon-72@2x.png */; };
+		2C11979A1B93251600ECD2F7 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1197871B93251600ECD2F7 /* Icon-76.png */; };
+		2C11979B1B93251600ECD2F7 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1197881B93251600ECD2F7 /* Icon-76@2x.png */; };
+		2C11979C1B93251600ECD2F7 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1197891B93251600ECD2F7 /* Icon-Small-50.png */; };
+		2C11979D1B93251600ECD2F7 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C11978A1B93251600ECD2F7 /* Icon-Small-50@2x.png */; };
+		2C11979E1B93251600ECD2F7 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C11978B1B93251600ECD2F7 /* Icon-Small.png */; };
+		2C11979F1B93251600ECD2F7 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C11978C1B93251600ECD2F7 /* Icon-Small@2x.png */; };
+		2C1197A01B93251600ECD2F7 /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C11978D1B93251600ECD2F7 /* Icon-Small@3x.png */; };
+		2C1197A11B93251600ECD2F7 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C11978E1B93251600ECD2F7 /* Icon.png */; };
+		2C1197A21B93251600ECD2F7 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C11978F1B93251600ECD2F7 /* Icon@2x.png */; };
+		2C1197A31B93251600ECD2F7 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1197901B93251600ECD2F7 /* iTunesArtwork.png */; };
+		2C1197A41B93251600ECD2F7 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1197911B93251600ECD2F7 /* iTunesArtwork@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +76,40 @@
 		2C1197501B92EA7500ECD2F7 /* CustomizedDatePickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomizedDatePickerTests-Info.plist"; sourceTree = "<group>"; };
 		2C1197521B92EA7500ECD2F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2C1197541B92EA7500ECD2F7 /* CustomizedDatePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomizedDatePickerTests.m; sourceTree = "<group>"; };
+		2C11975F1B92EACD00ECD2F7 /* DatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePicker.h; sourceTree = "<group>"; };
+		2C1197601B92EACD00ECD2F7 /* DatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePicker.m; sourceTree = "<group>"; };
+		2C1197661B92EC8D00ECD2F7 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		2C1197671B92EC8D00ECD2F7 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		2C11976A1B92ED5900ECD2F7 /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		2C11976C1B92EDC900ECD2F7 /* CustomRangeDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomRangeDatePicker.h; sourceTree = "<group>"; };
+		2C11976D1B92EDC900ECD2F7 /* CustomRangeDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomRangeDatePicker.m; sourceTree = "<group>"; };
+		2C11976E1B92EDC900ECD2F7 /* CustomRangeDatePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomRangeDatePicker.xib; sourceTree = "<group>"; };
+		2C11976F1B92EDC900ECD2F7 /* CustomSingleDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSingleDatePicker.h; sourceTree = "<group>"; };
+		2C1197701B92EDC900ECD2F7 /* CustomSingleDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSingleDatePicker.m; sourceTree = "<group>"; };
+		2C1197711B92EDC900ECD2F7 /* CustomSingleDatePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomSingleDatePicker.xib; sourceTree = "<group>"; };
+		2C1197771B92EE9F00ECD2F7 /* CustomizedDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomizedDatePickerViewController.h; path = CustomizedDatePickerViewController/CustomizedDatePickerViewController.h; sourceTree = "<group>"; };
+		2C1197781B92EE9F00ECD2F7 /* CustomizedDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomizedDatePickerViewController.m; path = CustomizedDatePickerViewController/CustomizedDatePickerViewController.m; sourceTree = "<group>"; };
+		2C1197791B92EE9F00ECD2F7 /* CustomizedDatePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomizedDatePickerViewController.xib; path = CustomizedDatePickerViewController/CustomizedDatePickerViewController.xib; sourceTree = "<group>"; };
+		2C11977C1B93191400ECD2F7 /* CustomizedDatePickerViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomizedDatePickerViewController_iPhone.xib; path = CustomizedDatePickerViewController/CustomizedDatePickerViewController_iPhone.xib; sourceTree = "<group>"; };
+		2C11977F1B93251600ECD2F7 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		2C1197801B93251600ECD2F7 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		2C1197811B93251600ECD2F7 /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@3x.png"; sourceTree = "<group>"; };
+		2C1197821B93251600ECD2F7 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		2C1197831B93251600ECD2F7 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		2C1197841B93251600ECD2F7 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		2C1197851B93251600ECD2F7 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		2C1197861B93251600ECD2F7 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		2C1197871B93251600ECD2F7 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		2C1197881B93251600ECD2F7 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		2C1197891B93251600ECD2F7 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		2C11978A1B93251600ECD2F7 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		2C11978B1B93251600ECD2F7 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		2C11978C1B93251600ECD2F7 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		2C11978D1B93251600ECD2F7 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		2C11978E1B93251600ECD2F7 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		2C11978F1B93251600ECD2F7 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		2C1197901B93251600ECD2F7 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		2C1197911B93251600ECD2F7 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +169,11 @@
 		2C1197351B92EA7500ECD2F7 /* CustomizedDatePicker */ = {
 			isa = PBXGroup;
 			children = (
+				2C1197761B92EE6C00ECD2F7 /* CustomizedDatePickerViewController */,
+				2C11976B1B92EDC900ECD2F7 /* CustomDatePicker */,
+				2C1197691B92ED5900ECD2F7 /* Define */,
+				2C1197621B92EB5C00ECD2F7 /* Utility */,
+				2C11975E1B92EACD00ECD2F7 /* DatePicker */,
 				2C11973E1B92EA7500ECD2F7 /* AppDelegate.h */,
 				2C11973F1B92EA7500ECD2F7 /* AppDelegate.m */,
 				2C1197411B92EA7500ECD2F7 /* Images.xcassets */,
@@ -118,6 +185,7 @@
 		2C1197361B92EA7500ECD2F7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2C11977E1B93251600ECD2F7 /* AppIcon */,
 				2C1197371B92EA7500ECD2F7 /* CustomizedDatePicker-Info.plist */,
 				2C1197381B92EA7500ECD2F7 /* InfoPlist.strings */,
 				2C11973B1B92EA7500ECD2F7 /* main.m */,
@@ -142,6 +210,82 @@
 				2C1197511B92EA7500ECD2F7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C11975E1B92EACD00ECD2F7 /* DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				2C11975F1B92EACD00ECD2F7 /* DatePicker.h */,
+				2C1197601B92EACD00ECD2F7 /* DatePicker.m */,
+			);
+			path = DatePicker;
+			sourceTree = "<group>";
+		};
+		2C1197621B92EB5C00ECD2F7 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				2C1197661B92EC8D00ECD2F7 /* Utilities.h */,
+				2C1197671B92EC8D00ECD2F7 /* Utilities.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		2C1197691B92ED5900ECD2F7 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				2C11976A1B92ED5900ECD2F7 /* Define.h */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		2C11976B1B92EDC900ECD2F7 /* CustomDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				2C11976C1B92EDC900ECD2F7 /* CustomRangeDatePicker.h */,
+				2C11976D1B92EDC900ECD2F7 /* CustomRangeDatePicker.m */,
+				2C11976E1B92EDC900ECD2F7 /* CustomRangeDatePicker.xib */,
+				2C11976F1B92EDC900ECD2F7 /* CustomSingleDatePicker.h */,
+				2C1197701B92EDC900ECD2F7 /* CustomSingleDatePicker.m */,
+				2C1197711B92EDC900ECD2F7 /* CustomSingleDatePicker.xib */,
+			);
+			path = CustomDatePicker;
+			sourceTree = "<group>";
+		};
+		2C1197761B92EE6C00ECD2F7 /* CustomizedDatePickerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2C1197771B92EE9F00ECD2F7 /* CustomizedDatePickerViewController.h */,
+				2C1197781B92EE9F00ECD2F7 /* CustomizedDatePickerViewController.m */,
+				2C1197791B92EE9F00ECD2F7 /* CustomizedDatePickerViewController.xib */,
+				2C11977C1B93191400ECD2F7 /* CustomizedDatePickerViewController_iPhone.xib */,
+			);
+			name = CustomizedDatePickerViewController;
+			sourceTree = "<group>";
+		};
+		2C11977E1B93251600ECD2F7 /* AppIcon */ = {
+			isa = PBXGroup;
+			children = (
+				2C11977F1B93251600ECD2F7 /* Icon-40.png */,
+				2C1197801B93251600ECD2F7 /* Icon-40@2x.png */,
+				2C1197811B93251600ECD2F7 /* Icon-40@3x.png */,
+				2C1197821B93251600ECD2F7 /* Icon-60.png */,
+				2C1197831B93251600ECD2F7 /* Icon-60@2x.png */,
+				2C1197841B93251600ECD2F7 /* Icon-60@3x.png */,
+				2C1197851B93251600ECD2F7 /* Icon-72.png */,
+				2C1197861B93251600ECD2F7 /* Icon-72@2x.png */,
+				2C1197871B93251600ECD2F7 /* Icon-76.png */,
+				2C1197881B93251600ECD2F7 /* Icon-76@2x.png */,
+				2C1197891B93251600ECD2F7 /* Icon-Small-50.png */,
+				2C11978A1B93251600ECD2F7 /* Icon-Small-50@2x.png */,
+				2C11978B1B93251600ECD2F7 /* Icon-Small.png */,
+				2C11978C1B93251600ECD2F7 /* Icon-Small@2x.png */,
+				2C11978D1B93251600ECD2F7 /* Icon-Small@3x.png */,
+				2C11978E1B93251600ECD2F7 /* Icon.png */,
+				2C11978F1B93251600ECD2F7 /* Icon@2x.png */,
+				2C1197901B93251600ECD2F7 /* iTunesArtwork.png */,
+				2C1197911B93251600ECD2F7 /* iTunesArtwork@2x.png */,
+			);
+			path = AppIcon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +363,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C11979D1B93251600ECD2F7 /* Icon-Small-50@2x.png in Resources */,
+				2C1197991B93251600ECD2F7 /* Icon-72@2x.png in Resources */,
+				2C1197971B93251600ECD2F7 /* Icon-60@3x.png in Resources */,
+				2C11979A1B93251600ECD2F7 /* Icon-76.png in Resources */,
+				2C1197951B93251600ECD2F7 /* Icon-60.png in Resources */,
+				2C1197A21B93251600ECD2F7 /* Icon@2x.png in Resources */,
+				2C1197A31B93251600ECD2F7 /* iTunesArtwork.png in Resources */,
+				2C11977B1B92EE9F00ECD2F7 /* CustomizedDatePickerViewController.xib in Resources */,
+				2C1197751B92EDC900ECD2F7 /* CustomSingleDatePicker.xib in Resources */,
+				2C11977D1B93191400ECD2F7 /* CustomizedDatePickerViewController_iPhone.xib in Resources */,
+				2C1197A11B93251600ECD2F7 /* Icon.png in Resources */,
+				2C1197A41B93251600ECD2F7 /* iTunesArtwork@2x.png in Resources */,
+				2C1197961B93251600ECD2F7 /* Icon-60@2x.png in Resources */,
+				2C1197921B93251600ECD2F7 /* Icon-40.png in Resources */,
+				2C11979E1B93251600ECD2F7 /* Icon-Small.png in Resources */,
+				2C1197941B93251600ECD2F7 /* Icon-40@3x.png in Resources */,
+				2C1197A01B93251600ECD2F7 /* Icon-Small@3x.png in Resources */,
 				2C11973A1B92EA7500ECD2F7 /* InfoPlist.strings in Resources */,
+				2C11979F1B93251600ECD2F7 /* Icon-Small@2x.png in Resources */,
+				2C11979C1B93251600ECD2F7 /* Icon-Small-50.png in Resources */,
+				2C1197981B93251600ECD2F7 /* Icon-72.png in Resources */,
+				2C1197931B93251600ECD2F7 /* Icon-40@2x.png in Resources */,
 				2C1197421B92EA7500ECD2F7 /* Images.xcassets in Resources */,
+				2C11979B1B93251600ECD2F7 /* Icon-76@2x.png in Resources */,
+				2C1197731B92EDC900ECD2F7 /* CustomRangeDatePicker.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +406,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C1197741B92EDC900ECD2F7 /* CustomSingleDatePicker.m in Sources */,
+				2C1197611B92EACD00ECD2F7 /* DatePicker.m in Sources */,
 				2C1197401B92EA7500ECD2F7 /* AppDelegate.m in Sources */,
+				2C11977A1B92EE9F00ECD2F7 /* CustomizedDatePickerViewController.m in Sources */,
+				2C1197721B92EDC900ECD2F7 /* CustomRangeDatePicker.m in Sources */,
+				2C1197681B92EC8D00ECD2F7 /* Utilities.m in Sources */,
 				2C11973C1B92EA7500ECD2F7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,7 +531,6 @@
 		2C1197591B92EA7500ECD2F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomizedDatePicker/CustomizedDatePicker-Prefix.pch";
@@ -372,7 +543,6 @@
 		2C11975A1B92EA7500ECD2F7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomizedDatePicker/CustomizedDatePicker-Prefix.pch";
@@ -443,6 +613,7 @@
 				2C11975A1B92EA7500ECD2F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C11975B1B92EA7500ECD2F7 /* Build configuration list for PBXNativeTarget "CustomizedDatePickerTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +622,7 @@
 				2C11975D1B92EA7500ECD2F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

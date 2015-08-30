@@ -14,6 +14,16 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    if (IDIOM==IPAD) {
+        cutomizedDatePicker=[[CustomizedDatePickerViewController alloc] initWithNibName:@"CustomizedDatePickerViewController" bundle:nil];
+    }
+    else
+    {
+        cutomizedDatePicker=[[CustomizedDatePickerViewController alloc] initWithNibName:@"CustomizedDatePickerViewController_iPhone" bundle:nil];
+    }
+    self.window.rootViewController=cutomizedDatePicker;
+
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

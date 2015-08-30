@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "CustomizedDatePickerViewController.h"
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
+{
+    CustomizedDatePickerViewController*cutomizedDatePicker;
 
+}
 @property (strong, nonatomic) UIWindow *window;
 
 @end
